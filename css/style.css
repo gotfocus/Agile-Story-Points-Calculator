@@ -1,0 +1,125 @@
+body {    
+	font-family: verdana, arial;  
+	width: 700px; margin: 0px auto;
+}
+
+table   {    
+	background-color: #FFF;
+    border: 1px solid #39F;
+	width: 80%;
+    margin-left: 10%; 	
+    text-align: center; }
+
+div, span   {    
+	background-color: #FFF;
+	width: 90%;
+    margin-left: 10%; 	
+    font-size: 12px; 		
+    float: none; }
+
+th   {    
+	background-color: #FAFAFA;
+    font-size: 14px; 	
+    font-weight: bold;
+    text-align: center; }
+
+td   {    
+	background-color: #FFF;
+    font-size: 12px; 	
+    text-align: center; }
+	
+p {
+    color:#09F;
+    text-indent: 10px;
+}
+
+input{
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 20px; margin: 0px;
+}
+
+h2 {
+ background-color:#FCFCFC;
+    border: 0px solid;
+    color:#000066;
+    text-align: center;    
+    float: center; 	
+    font-size: 18px; 
+	margin-left: 10%;
+	width: 80%;
+    font-style: italic;	
+}
+
+nav ul {
+    list-style: none; padding: 0px; display: block;
+    clear: right; background-color: #666;
+    padding-left: 4px; height: 24px;
+}
+
+nav ul li {
+    display: inline; padding: 0px 20px 5px 10px;
+    height: 24px; border-right: 1px solid #ccc;
+}
+
+nav ul li a {
+    color: #EFD3D3; text-decoration: none;
+    font-size: 13px; font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+article > header time {
+    font-size: 14px; display: block; width: 26px;
+    padding: 2px; text-align: center; background-color: #993333;
+    color: #fff; font-weight: bold; -moz-border-radius: 6px;
+    -webkit-border-radius: 6px; border-radius: 6px; float: left;
+    margin-bottom: 10px;
+}
+
+article > header time span {
+    font-size: 10px; font-weight: normal;
+    text-transform: uppercase;
+}
+
+article > header h1 {
+    font-size: 20px; float: left;
+    margin-left: 14px; text-shadow: 2px 2px 5px #333;
+}
+
+article > header h1 a {
+    color: #993333;
+}
+
+article > section header h1 {
+    font-size: 16px;
+}
+
+article p {
+    clear: both;
+}
+
+footer p {
+    text-align: center; font-size: 12px;
+    color: #888; margin-top: 24px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>Agile: Estimate Story Points</title>
+
+    <link type="text/css" href="css/style.css" rel="stylesheet" />  
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/agile.js"></script>
+  <!---  <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var tableFunctions = new Array();
+      var tableData = new Array();
+    </script> --->	
+  </head>
+
+  <body>
+  <header>
+    <p><img src="img/logo.png" border="0"></p>
+       <p><h2>Agile Story Points Calculator</h2></p>
+  </header>
+	<br />	<br />
+	<table>
+		<tr><th>Function</th><th>Volume</th><th>Complexity (1 - 10)</th><th>Total</th></tr>	
+		<tr><td colspan="4">&nbsp;</td></tr>
+		<tr><td>Analysis</td><td><input type="number" id="analvol" size="4"min="1" max="100"></td><td><input type="number" id="analcomp" min="1" max="10" size="4"></td><td id="analsub"></td></tr>
+		<tr><td>Development</td><td><input type="number" id="devvol" size="4"min="1" max="100"></td><td><input type="number" id="devcomp" min="1" max="10" size="4"></td><td id="devsub"></td></tr>
+		<tr><td>QA</td><td><input type="number" id="qavol" size="4"min="1" max="100"></td><td><input type="number" id="qacomp" min="1" max="10" size="4"></td><td id="qasub"></td></tr>
+		<tr><td colspan="4">&nbsp;</td></tr>
+	</table>
+	<br />
+	<br />
+	<div id="submit">
+		<span><input type="button" id="submitBtn" value="Submit ->"></span><span id="response"></span>
+	</div
+
+
+	</body>
+</html>
